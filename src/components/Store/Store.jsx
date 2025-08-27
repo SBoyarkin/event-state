@@ -37,8 +37,10 @@ export function Store() {
     }];
     return(
         <>
+            <div className={'store'}>
             <IconSwitch icon={icon} onSwitch={onSwitch}/>
             <CardsView  products={products} view={icon}/>
+                </div>
         </>
     )
 

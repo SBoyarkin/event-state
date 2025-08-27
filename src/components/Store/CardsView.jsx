@@ -9,16 +9,14 @@ export function CardsView({products, view }) {
                     <div className={'card__title'}>{item.name}</div>
                     <div className={'car__color'}>{item.color}</div>
                     <img className={'card__img'} src={item.img} alt={item.img}></img>
-                    <div className={'card__footer'}>
+
                         <div className={'card__price'}>{item.price}</div>
                         <div className={'btn'}>add to cart</div>
-                        </div>
+
 
                 </div>
-
-                )}
+            )}
             </div>
-            {view}
         </>
     )
 
